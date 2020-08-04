@@ -1,5 +1,13 @@
 variable "AWS_REGION" {
-  default = "eu-west-1"
+  default = "us-east-1"
+}
+
+variable "AWS_ACCESS_KEY" {
+  default = "AKIA2CREYSD3YTFXFSB7"
+}
+
+variable "AWS_SECRET_KEY" {
+  default = "tm4B6S5ETpNzUjxwJMSUnbqAvGXj1cFF/9J99FFk"
 }
 
 variable "PATH_TO_PRIVATE_KEY" {
@@ -39,6 +47,6 @@ variable "INSTANCE_DEVICE_NAME" {
 }
 
 variable "JENKINS_VERSION" {
-  default = "2.204.1"
+  default = "2.235.3"  #https://www.jenkins.io/download/ LTS support
 }
 
